@@ -1,0 +1,4 @@
+interface:
+  display_name: "前后端调用链核对"
+  short_description: "核对页面按钮到接口和服务的真实调用链，区分本地、仓库与线上证据"
+  default_prompt: "用 $api-trace-handoff 核对这个页面按钮到后端服务的完整调用链，列出文件、函数、接口及当前版本差异，生成给同事的简短说明。"
